@@ -1,4 +1,3 @@
-import flet as ft
 from flet import *
   
 units = {
@@ -282,7 +281,3 @@ def main(page: Page):
     )
 
     page.add(main)
-
-app(main) 
-
-ft.app(target=app, view=ft.WEB_BROWSER)
